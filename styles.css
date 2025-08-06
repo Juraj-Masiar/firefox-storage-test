@@ -1,0 +1,23 @@
+#storageStateContainer {
+  display: grid;
+}
+
+.fullyOperational, .fullyOperationalPossiblyDueToClear {
+  color: #004400;
+}
+
+.existingBroken {
+  color: #660000;
+}
+.fullyBroken {
+  color: #880000;
+}
+
+/* create annoyingly lower contrast so people ignore this */
+#debugContainer {
+  margin-top: 2em;
+  border-top: 1px solid #999;
+  background-color: #dddddd;
+  color: #666666;
+  padding-bottom: 2em;
+}
